@@ -8,43 +8,28 @@
 </head>
 
 
-<body>
+<body style="background-color: #56637D;">
     
-    <form action="action_page.php" method="GET">
-        <div>
-            <label for="fname">first name:</label>
-            <input type="text" id="fname" name="fname" placeholder="Spongebob" required>
-        </div>
+    <h1 style="color: blue;">Basic Calculator</h1>
 
-        <br>
 
-        <div>
-            <label for="lname">last name:</label>
-            <input type="text" id="lname" name="lname" placeholder="Spongebob" required>
-        </div>
+    <!-- main table used for all calculator buttons-->
 
-        <br>
+    <div class="calculator">
+        <div><select name="calculator_options" id="calculator_option">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="*">*</option>
+        </select></div>
 
-        <div>
-            <label for="pass">last name:</label>
-            <input type="password" id="pass" name="pass" placeholder="Spongebob" required>
-        </div>
+        <div><input  size="9" type="text" id="fname" name="fname" placeholder="Number 1" required></div>
+        <div><input  size="9" type="text" id="fname" name="fname" placeholder="Number 2" required></div>
+
+        <div><button type="Enter">Enter</button></div>
         
-
-        <br>
-
-        <div>
-            <input type="reset">
-        </div>
-
-        <br>
-
-        <div>
-            <input type="submit">
-        </div>
-
-
-    </form>
+    </div>
+     
 
 </body>
 
