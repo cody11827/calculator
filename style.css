@@ -22,4 +22,5 @@ h1{
 .calculator{
     color: blue;
     font-family: "consolas";
+    place-items: center;
 }
